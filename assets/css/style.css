@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+	content:"";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	box-sizing: border-box;
+}
+
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    padding-top: 56px;
+  }
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	box-sizing: border-box;}
+
+
+h2 {
+	padding-left: 40px;
+	font-size: 21px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
+
+p {
+	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar-brand {
+	position: relative;
+	width: 200px;
+	height: 40px;
+	background: #4aaaa5;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 1.8rem;
+}
+
+.img-fluid {
+	float: left;
+	max-width: 100%;
+	padding-right: 10px;
+	height: auto;}
+
+.img-thumbnail {
+	float: left;
+	border: none;
+}
+
+
+#boxes {
+	position: relative;
+	margin: 0 auto;
+	margin-left: 25%;
+}
+
+
+
+/* footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Album */
+.album {
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+	padding: 10px;
+	background: #4aaaa5;
+	color: white;
+	text-align: center;
+}
+
+.btn {
+	background-color : #4aaaa5;
+	color: #ffffff;
+}
+
+
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+
+
+
+@media (max-width: 576px) {
+	
+	.img-fluid {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) { 
+	.img-thumbnail {
+		width: 30%;
+	} 
+}
+
+@media (max-width: 768px) { 
+	.img-thumbnail {
+		width: 30%;
+	} 
+}
+
+@media (max-width: 576px) { 
+	.img-thumbnail {
+		width: 20%;
+	} 
+	
+	.card {
+		width: 100%;
+	}
+}
+
